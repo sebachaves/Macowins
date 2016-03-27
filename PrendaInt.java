@@ -13,6 +13,6 @@ public class PrendaInt extends Prenda {
 	//Metodos
 	@Override
 	public double precioFinal(){
-		return (super.precioFinal() + ((ValorFijo + tipoPrenda.getValorBase()) * tasaImportacion));
+		return (super.precioFinal() + (super.precioFinal() * tasaImportacion));
 	}
 }

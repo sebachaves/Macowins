@@ -20,4 +20,9 @@ public class Venta {
 		
 		this.fechaDeVenta = miCalendario.getTime();
 	}
+	
+	//Metodos
+	public double precioTotalVenta(){
+		return (prenda.precioFinal()*this.cantidad);
+	}
 }
