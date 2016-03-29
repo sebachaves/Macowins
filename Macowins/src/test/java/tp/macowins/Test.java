@@ -27,9 +27,6 @@ public class Test {
 		System.out.println("La camisa nacional vale: " + unaCamisa.precioFinal());
 		System.out.println("La camisa internacional vale: " + unaCamisaInt.precioFinal());
 
-		Venta unaVenta = new Venta(unPantalon, 25, 3, 2016, 3);
-
-		
 	}
 
 }
